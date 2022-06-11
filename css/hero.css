@@ -1,0 +1,384 @@
+.Hero {
+    /* Hero / 3 */
+    width: 1440px;
+    height: 866px;
+
+    background-image: url("../images/heroback.png");
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.top {
+    /* Header / 7 */
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+}
+.navbar{
+    /* Left Nav */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    position: absolute;
+    width: 567px;
+    height: 28px;
+    left: 165px;
+    top: calc(50% - 28px/2);
+}
+.navlogo{
+    /* landify*/
+
+    width: 105px;
+    height: 28px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: flex-start;
+    flex-grow: 0;
+}
+
+.nav-item {
+    /* Nav Items */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+
+    width: 430px;
+    height: 20px;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+}
+
+.item1{
+    /* Header menu / Default */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 41px;
+    height: 20px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.item2{
+    /* Menu Item / Default */
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 61px;
+    height: 20px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.item3{
+    /* Menu Item / Default */
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 47px;
+    height: 20px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.item4{
+    /* Menu Item / Default */
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 31px;
+    height: 20px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+.item5{
+    /* Menu Item / Default */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 33px;
+    height: 20px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+.item6{
+    /* Header menu / Dropdown */
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+
+    width: 57px;
+    height: 20px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+}
+
+.label {
+   /* Label */
+    width: 41px;
+    height: 20px;
+
+    /* Label / Medium Label */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+    color: #18191F;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    align-self: center;
+}
+.arrow-down {
+    /* Essential Icons / chevron-down */
+    width: 1px;
+    height: 1px;
+
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.rightnav {
+    /* Right Nav */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    position: absolute;
+    width: 282px;
+    height: 40px;
+    right: 165px;
+    top: calc(50% - 40px/2 + 0px);
+}
+
+.googleplay {
+    /* Google Play Badge */
+    width: 135px;
+    height: 40px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.appstore {
+    /* Download Badge / App Store Badge */
+    width: 135px;
+    height: 40px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.content {
+    /* Content */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    position: absolute;
+    width: 730px;
+    height: 276px;
+    left: 165px;
+    top: 240px;
+}
+#til{
+  /* Organise projects. Get more done. */
+    width: 730px;
+    height: 196px;
+
+    /* Heading/H1 */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+
+    /* or 136% */
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+    color: #18191F;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.button1 {
+    /* Button */
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 10px;
+
+    width: 154px;
+    height: 48px;
+
+    /* Brand / Purple */
+    background: #8C30F5;
+    border-radius: 6px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+#start{
+    /* Label */
+    width: 90px;
+    height: 24px;
+
+    /* Label / Large Label */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Default / White */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.phone{
+    /* Phone Mockup */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 350px;
+    height: 640px;
+    left: 925px;
+    top: 168px;
+}
+
+.mobile {
+    /* Mobile / iPhone X */
+
+    width: 320px;
+    height: 640px;
+
+    /* Mobile Mockup Shadow */
+
+    filter: drop-shadow(10px 15px 30px rgba(41, 41, 42, 0.5));
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#iphone {
+    /* iPhone X */
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: url(../images/iPhone\ X.png);
+}
+#screen {
+    /* Screen */
+    position: absolute;
+    left: 6.51%;
+    right: 6.28%;
+    top: 3.02%;
+    bottom: 2.56%;
+
+    background: url(../images/Screen.png);
+}
