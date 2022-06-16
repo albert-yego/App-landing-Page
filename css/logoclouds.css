@@ -1,0 +1,116 @@
+.logoclouds{
+    /* Logo Clouds / 1 */
+    width: 1440px;
+    height: 142px;
+    /* Default / White */
+    background: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.logosection{
+    /* Logos Section */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 1110px;
+    height: 110px;
+    left: 165px;
+    top: 16px;
+}
+.logos{
+    /* Logos */
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 0px;
+    gap: 64px;
+    width: 891px;
+    height: 60px;
+    position: absolute;
+    left: 274.5px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+#airbnb{
+    /* Airbnb Logo */
+    width: 90px;
+    height: 28px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#hubspot{
+    /* Hubspot Logo */
+    width: 84px;
+    height: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+#google{
+    /* Google Logo */
+    width: 84px;
+    height: 28px;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+#microsoft{
+    /* Microsoft Logo */
+    width: 122px;
+    height: 26px;
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+#walmart{
+    /* Walmart Logo */
+    width: 111px;
+    height: 26px;
+    /* Inside auto layout */
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+#fedex{
+    /* FedEx Logo */
+    width: 80px;
+    height: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+}
+.divider1{
+    /* Divider */
+    width: 1110px;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.divider2{
+    /* Divider */
+    width: 1110px;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
