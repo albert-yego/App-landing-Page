@@ -26,6 +26,8 @@
 .logos{
     /* Logos */
     /* Auto layout */
+    position: relative;
+    left: 90px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -33,8 +35,6 @@
     gap: 64px;
     width: 891px;
     height: 60px;
-    position: absolute;
-    left: 274.5px;
     /* Inside auto layout */
     flex: none;
     order: 1;
