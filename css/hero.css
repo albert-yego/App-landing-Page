@@ -1,21 +1,11 @@
-.app{
-    /* App Landing Page */
-    /* Auto layout */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    position: relative;
-    width: 1440px;
-    height: 5051px;
-    overflow-y: scroll;
-    background: #FFFFFF;
+*{
+    margin: 0;
 }
 .Hero {
     /* Hero / 3 */
     width: 1440px;
     height: 866px;
-    background-image: url("../images/heroback.png");
+    background-image: url("../images/Hero/Background.png");
     /* Inside auto layout */
     flex: none;
     order: 0;
@@ -29,6 +19,7 @@
     height: 72px;
     left: 0px;
     top: 0px;
+    margin: 0px;
 }
 .navbar{
     /* Left Nav */
@@ -210,16 +201,13 @@
 }
 .arrow-down {
     /* Essential Icons / chevron-down */
-    width: 1px;
-    height: 1px;
-
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
+    width: 18px;
+    height: 18px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: flex-end;
+    flex-grow: 0;
 }
 
 .rightnav {
@@ -355,41 +343,4 @@
     height: 640px;
     left: 925px;
     top: 168px;
-}
-
-.mobile {
-    /* Mobile / iPhone X */
-
-    width: 320px;
-    height: 640px;
-
-    /* Mobile Mockup Shadow */
-
-    filter: drop-shadow(10px 15px 30px rgba(41, 41, 42, 0.5));
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-#iphone {
-    /* iPhone X */
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-
-    background: url(../images/iPhone\ X.png);
-}
-#screen {
-    /* Screen */
-    position: absolute;
-    left: 6.51%;
-    right: 6.28%;
-    top: 3.02%;
-    bottom: 2.56%;
-
-    background: url(../images/Screen.png);
 }
