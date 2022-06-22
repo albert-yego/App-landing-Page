@@ -264,9 +264,6 @@
 }
 #til{
   /* Organise projects. Get more done. */
-    width: 730px;
-    height: 196px;
-
     /* Heading/H1 */
     font-family: 'Inter';
     font-style: normal;
@@ -280,11 +277,6 @@
     /* Text / Gray 900 */
     color: #18191F;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 .button1 {
     /* Button */
@@ -297,15 +289,8 @@
 
     width: 154px;
     height: 48px;
-
     /* Brand / Purple */
     background: #8C30F5;
-    border-radius: 6px;
-
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 #start{
     /* Label */
