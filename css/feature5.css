@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .feature_multiple_5{
     /* Feature / Multiple / 5 */
     /* Auto layout */
@@ -53,7 +59,7 @@
     width: 540px;
     height: 64px;
     /* Heading / H2 */
-    font-family: 'Inter';
+    font-family: 'Inter',sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 48px;
@@ -75,7 +81,7 @@
     width: 540px;
     height: 64px;
     /* Lead / Lead 1 */
-    font-family: 'Inter';
+    font-family: 'Inter',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -94,14 +100,10 @@
 .features_list1{
     /* Features List */
     /* Auto layout */
-    position: relative;
-    left: 165px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
+    align-items: center;
     gap: 64px;
-    width: 1110px;
     height: 360px;
     /* Inside auto layout */
     flex: none;
@@ -171,7 +173,7 @@
     width: 350px;
     height: 52px;
     /* Body / Body 1 */
-    font-family: 'Inter';
+    font-family: 'Inter',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
