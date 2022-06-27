@@ -1,98 +1,32 @@
 *{
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-.logoclouds{
-    /* Logo Clouds / 1 */
-    width: 100%;
-    height: 142px;
+.logo-clouds{
     margin: auto;
-    /* Default / White */
-    background: #FFFFFF;
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    width: 100%;
 }
-.logosection{
-    /* Logos Section */
-    /* Auto layout */
+.logo-section{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 24px;
+    padding-top: 50px;
 }
-.logos{
-    /* Logos */
-    /* Auto layout */
-    position: relative;
-    display: flex;
-    align-items: center;
-    padding: 16px 0px;
-    gap: 64px;
-    width: 891px;
-    height: 60px;
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-#airbnb{
-    /* Airbnb Logo */
-    width: 90px;
-    height: 28px;
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-#hubspot{
-    /* Hubspot Logo */
-    width: 84px;
-    height: 24px;
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-#google{
-    /* Google Logo */
-    width: 84px;
-    height: 28px;
-    /* Inside auto layout */
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-}
-#microsoft{
-    /* Microsoft Logo */
-    width: 122px;
-    height: 26px;
-    /* Inside auto layout */
-    flex: none;
-    order: 3;
-    flex-grow: 0;
-}
-#walmart{
-    /* Walmart Logo */
-    width: 111px;
-    height: 26px;
-    /* Inside auto layout */
-    flex: none;
-    order: 4;
-    flex-grow: 0;
-}
-#fedex{
-    /* FedEx Logo */
-    width: 80px;
-    height: 24px;
-    /* Inside auto layout */
-    flex: none;
-    order: 5;
-    flex-grow: 0;
-}
-.divider1{
-    /* Divider */
+.divider{
     width: 1110px;
     height: 1px;
-    background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, 
+    rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+}
+.logos{
+    display: flex;
+    align-items: center;
+    padding: 15px 0px;
+    gap: 65px;
+}
+.logo-image{
+    width: 90px;
+    height: 30px;
 }

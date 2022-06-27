@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .feature_multiple_5{
     /* Feature / Multiple / 5 */
     /* Auto layout */
@@ -95,13 +100,10 @@
 .features_list1{
     /* Features List */
     /* Auto layout */
-    position: relative;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
+    align-items: center;
     gap: 64px;
-    width: 1110px;
     height: 360px;
     /* Inside auto layout */
     flex: none;
