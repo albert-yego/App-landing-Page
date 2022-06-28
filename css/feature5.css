@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,57 +7,23 @@
 .feature_multiple_5{
     /* Feature / Multiple / 5 */
     /* Auto layout */
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 64px 165px;
-    gap: 48px;
-    height: 672px;
-    /* Default / White */
-    background: #FFFFFF;
-    /* Inside auto layout */
-    flex: none;
-    order: 2;
-    flex-grow: 0;
+    width: 100%;
+    margin: auto;
+    padding: 50px 20px 0 20px;
 }
 .section_heading1{
     /* Section Heading */
     /* Auto layout */
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
+    align-items: center;
     gap: 8px;
-    position: relative;
     width: 540px;
     height: 136px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    align-self: center;
-    flex-grow: 0;
+    margin: auto;
+    box-shadow: 0px 4px 4px rgba(134, 134, 134, 0.25);
 }
-.sh1{
-    /* Section Heading */
-    /* Auto layout */
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 8px;
-    width: 540px;
-    height: 64px;
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-#til2{
-    /* Section Title */
-    width: 540px;
-    height: 64px;
+.heading-title{
     /* Heading / H2 */
     font-family: 'Inter',sans-serif;
     font-style: normal;
@@ -69,17 +35,9 @@
     font-feature-settings: 'salt' on, 'liga' off;
     /* Text / Gray 900 */
     color: #18191F;
-    border: 1px solid #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
-#title_text{
-    /* Description */
-    width: 540px;
-    height: 64px;
+.heading-text{
     /* Lead / Lead 1 */
     font-family: 'Inter',sans-serif;
     font-style: normal;
@@ -91,11 +49,6 @@
     font-feature-settings: 'salt' on, 'liga' off;
     /* Text / Gray 900 */
     color: #18191F;
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
 }
 .features_list1{
     /* Features List */
@@ -104,56 +57,38 @@
     flex-direction: column;
     align-items: center;
     gap: 64px;
-    height: 360px;
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    align-self: flex-start;
-    flex-grow: 0;
+    padding: 50px 165px 0 165px;
 }
-.row1{
+.row-1{
     /* Row 1 */
     /* Auto layout */
     display: flex;
-    flex-direction: row;
     align-items: center;
-    padding: 0px;
     gap: 30px;
-    width: 1110px;
-    height: 148px;
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
-.f1{
-    /* Feature Icons / 01 */
-    width: 32px;
-    height: 32px;
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-.rt{
+.row-1-element{
+    /* 1 */
+    /* Auto layout */
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
-    gap: 8px;
-    width: 350px;
-    height: 92px;
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    gap: 24px;
+    border-radius: 8px;
 }
-.t1{
-    /* Headline */
-    width: 350px;
+.element-image{
+    /* Feature Icons / 01 */
+    width: 32px;
     height: 32px;
+}
+.element-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.element-heading{
     /* Heading / H5 */
-    font-family: 'Inter';
+    font-family: 'Inter',sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -163,15 +98,8 @@
     font-feature-settings: 'salt' on, 'liga' off;
     /* Text / Gray 900 */
     color: #18191F;
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
-.ft1{
-    /* Description */
-    width: 350px;
-    height: 52px;
+.element-text{
     /* Body / Body 1 */
     font-family: 'Inter',sans-serif;
     font-style: normal;
@@ -183,111 +111,20 @@
     font-feature-settings: 'salt' on, 'liga' off;
     /* Text / Gray 900 */
     color: #18191F;
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
-.r1{
-    /* 1 */
-    /* Auto layout */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    gap: 24px;
-    width: 350px;
-    height: 148px;
-    border-radius: 8px;
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-.r2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    gap: 24px;
-    width: 350px;
-    height: 148px;
-    border-radius: 8px;
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-.r3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    gap: 24px;
-    width: 350px;
-    height: 148px;
-    border-radius: 8px;
-    /* Inside auto layout */
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-}
-.row2{
+.row-2{
     /* Row 2 */
     /* Auto layout */
     display: flex;
-    flex-direction: row;
     align-items: center;
-    padding: 0px;
     gap: 30px;
-    width: 1110px;
-    height: 148px;
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
-.r4{
+.row-2-element{
     /* 4 */
     /* Auto layout */
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
     gap: 24px;
-    width: 350px;
-    height: 148px;
     border-radius: 8px;
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-.r5{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    gap: 24px;
-    width: 350px;
-    height: 148px;
-    border-radius: 8px;
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-.r6{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    gap: 24px;
-    width: 350px;
-    height: 148px;
-    border-radius: 8px;
-    /* Inside auto layout */
-    flex: none;
-    order: 2;
-    flex-grow: 0;
 }
