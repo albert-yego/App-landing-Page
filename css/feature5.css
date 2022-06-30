@@ -57,7 +57,7 @@
     flex-direction: column;
     align-items: center;
     gap: 64px;
-    padding: 50px 165px 0 165px;
+    padding: 50px 165px 50px 165px;
 }
 .row-1{
     /* Row 1 */

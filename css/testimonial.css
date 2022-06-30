@@ -1,0 +1,40 @@
+.testimonial{
+    position: relative;
+    max-width: 1440px;
+    height: 895px;
+    margin: auto;
+    background-color: #D5FAFC;
+}
+.quote-mark{
+    position: absolute;
+    left: 165px;
+    top: 65px;
+    width: 145px;
+    height: 120px;
+}
+.testimonial-heading{
+    position: absolute;
+    left: 260px;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.testimonial-heading-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    color: #18191F;
+    z-index: 2;
+}
+.testimonial-heading-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+}
