@@ -1,0 +1,65 @@
+.testimonial{
+    position: relative;
+    max-width: 1440px;
+    height: 895px;
+    margin: auto;
+    background-color: #D5FAFC;
+}
+.testimonial-content-hubspot{
+    position: absolute;
+    left: 355px;
+    top: 312px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 10px;
+    max-width: 350px;
+}
+.testimonial-hubspot-image{
+    width: 140px;
+    height: 40px;
+}
+.testimonial-hubspot-content{
+    display: flex;
+    gap: 15px;
+}
+.hubspot-quotemark{
+    width: 16px;
+    height: 14px;
+}
+.hubspot-content{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.hubspot-text{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+}
+.hubspot-writer{
+    display: flex;
+    flex-direction: column;
+}
+.hubspot-writer-name{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #18191F;
+}
+.hubspot-writer-title{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #969BAB;
+}
