@@ -1,0 +1,33 @@
+.stats-content{
+    display: flex;
+    gap: 30px;
+}
+.stats-content-section{
+    display: flex;
+    flex-direction: column;
+    gap: 40px; 
+}
+.stats-element-section{
+    display: flex;
+    gap: 16px;
+}
+.stats-element-image{
+    width: 48px;
+    height: 48px;
+}
+.stats-element-title{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+}
+.stats-element-text{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #18191F;
+}
