@@ -1,0 +1,75 @@
+.app-download{
+    background: #2EC5CE;
+    margin: auto;
+    position: relative;
+    max-width: 1440px;
+    height: 490px ;
+    z-index: -1;
+}
+.phone-bottom-section{
+    width: 230px;
+    height: 465px;
+    filter: drop-shadow(10px 15px 30px rgba(41, 41, 42, 0.5));
+    position: absolute;
+    left: 779px;
+    top: -93px;
+}
+.phone-top-section{
+    width: 230px;
+    height: 465px;
+    filter: drop-shadow(10px 15px 30px rgba(41, 41, 42, 0.5));
+    position: absolute;
+    left: 1043px;
+    top: 88px;
+}
+.app-download-content{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 540px;
+    position: absolute;
+    left: 165px;
+    top: calc(50% - 356px/2 + 0.5px);
+}
+.CTA-message{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.CTA-message-title{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    color: #18191F;
+}
+.CTA-message-text{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+}
+.download-app{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.download-app-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #18191F;
+}
+.download-app-icons{
+    display: flex;
+    gap: 10px;
+}
+.app-icon{
+    width: 135px;
+    height: 40px;
+}
