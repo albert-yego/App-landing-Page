@@ -4,6 +4,7 @@
     width: 100%;
     padding: 65px 165px;
     gap: 50px;
+    background: white;
 }
 .fashion-content{
     display: flex;
