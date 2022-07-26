@@ -34,13 +34,14 @@
     display: flex;
     width: 100%;
     margin: auto;
+    padding: 80px 0;
 }
 .stats-heading{
     display: flex;
     flex-direction: column;
     gap: 10px;
     max-width: 540px;
-    margin: 80px 0 0 165px;
+    margin-left: 165px;
 }
 .stats-heading-title{
     font-family: 'Inter',sans-serif;
